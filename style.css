@@ -1,0 +1,64 @@
+body{
+    box-sizing: border-box;
+    font-family: "Kaisei Opti", serif;
+}
+.navbar{
+    height: 98px;
+    background-color:white;
+    border-bottom: 1px solid grey ;
+
+}
+/* @media screen and (max-width: 992px) {
+.navbar{
+    height: 70px;
+}
+.navbar-nav .nav-link:hover {
+    color: rgb(72, 233, 72);
+} */
+
+
+
+/* } */
+.nav-item a{
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    
+    font-weight: 600;
+    
+    
+}
+
+@media screen and (max-width: 968px) {
+    .col-md-6 {
+      height: 310px !important;
+ 
+    }
+    .headsec1{
+        font-size: 35px ! important;
+
+    }
+    
+    .headsec2{
+        font-size: 18px !important;
+
+    }
+    .imd{
+      width: 100% ;
+    }
+  }
+  .sec3{
+margin: 1%;
+height: 100px;
+background-color: black;
+
+  }
+  .footlink a{
+    text-decoration: none;
+    color: gray;
+  }
+  .footlink a:hover{
+    color: rgb(31, 88, 45);
+  }
+  .para{
+   text-align: center;
+  }
